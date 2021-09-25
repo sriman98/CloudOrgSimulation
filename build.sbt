@@ -23,5 +23,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % scalacticVersion % Test,
   "org.scalatest" %% "scalatest-featurespec" % scalacticVersion % Test,
   "com.typesafe" % "config" % typesafeConfigVersion,
-  "org.cloudsimplus" % "cloudsim-plus" % cloudSimPlusVersion
+  "org.cloudsimplus" % "cloudsim-plus" % cloudSimPlusVersion,
+  "junit" % "junit" % "4.12",
 )
